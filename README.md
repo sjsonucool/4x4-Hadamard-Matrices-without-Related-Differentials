@@ -6,7 +6,7 @@ The program generates random 4x4 Hadamard MDS matrices over GF(256) and searches
 
 filterNoRelMatrices.c
 =====================
-compiling and running ./a.out i (where i can be {1,2,....,255}), the program generates file containing all 4x4 Hadamard MDS matrices M with M[0,0] = i where the elements satisfy none of the 28 relations. The size of each generated file can be approximately 250 MB and each consists of 14229600 matrices.
+compiling and running ./a.out i (where i can be {1,2,....,255}), the program generates file containing all 4x4 Hadamard MDS matrices M with M[0,0] = i where the elements satisfy none of the 28 relations. The size of each generated file can be approximately 250 MB and each consists of 14229600 matrices. The repository already has the list of matrices with M[0,0]=1 which can be found in the folder named Files.
 
 verRelDiff.c
 ============
