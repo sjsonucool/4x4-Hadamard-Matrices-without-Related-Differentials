@@ -1,5 +1,7 @@
 # 4x4-Hadamard-Matrices-without-Related-Differentials
 
+All programs can be compiled with cc -O3 -o [executable_name] [program_filename] 
+
 searchRelatedDiffsandRelations.c
 ================================
 The program generates random 4x4 Hadamard MDS matrices over GF(256) and searches for related differentials and the underlying relations satisfied by the matrix elements.
