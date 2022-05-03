@@ -1,6 +1,6 @@
 # 4x4-Hadamard-Matrices-without-Related-Differentials
 
-All programs can be compiled with 1)cc -O3 [program_filename] or 2) cc -O3 -o [executable_name] [program_filename] 
+All programs can be compiled with 1) cc -O3 [program_filename] or 2) cc -O3 -o [executable_name] [program_filename] 
 
 searchRelatedDiffsandRelations.c
 ================================
