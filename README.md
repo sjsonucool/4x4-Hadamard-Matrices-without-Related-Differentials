@@ -16,4 +16,4 @@ compiling and running ./a.out i, the program searches related differentials for 
 
 Note:
 ====
-One can run multiple instances of a.out in parallel for faster verification. The file with M[0,0] = 1 can be split further into subfiles and verified in parallel too! In our experiment, we used 64 cores, where each core handles one file. The total time taken for generating each list took approximately 4 hours (with 64 cores assigined to generate each file), where as checking related differences for each matrices in the list with M[0,0] = 1 took approximately 22 hours.
+One can run multiple instances of a.out in parallel for faster verification. The file with M[0,0] = 1 can be split further into subfiles and verified in parallel too! In our experiment, we used 64 cores, where each core handles Related Differentials check for matrices in a given file. The total time taken for generating each list took approximately 4 hours (with 64 cores assigined to generate each file), where as checking related differences for each matrices in the list with M[0,0] = 1 took approximately 22 hours.
