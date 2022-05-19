@@ -1,3 +1,5 @@
+//Shows example of MDS Hadamard matrices that allows Related Differentials and the relation(s) satisfied by the matrix elements 
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -9,14 +11,7 @@
 #include <string.h>
 #include "boxes-ref.dat"
 
-// Dimension of input square matrix
-#define N 4
-#define SWAP(a, b) do { typeof(a) temp = a; a = b; b = temp; } while (0)
-#define f_size 256 //size of the Galois field
-#define fstar_size 255
-#define m_size 4
-
-//arranging elemwnts to form a 4X4 Hadamard Matrix
+//arranging elements to form a 4X4 Hadamard Matrix
 unsigned char ArrangeHadamard(unsigned char h[4], unsigned char H[4][4])
 {
 	int i, j;
